@@ -73,7 +73,7 @@ lda inf [settings] [model] [data] [name]
 example
 $./lda inf inf-settings.txt est_output/final ouput.txt.train inf_train
 ```
-得到 `*.gamma` 文件，是 S x k 的一个数组，每行代表一个文档，可以找出里面最大值来判断每个文档最可能是是哪个主题
+得到 `*.gamma` 文件，是 S x k 的一个矩阵，每行代表一个文档，可以找出里面最大值来判断每个文档最可能是是哪个主题
 
 
 
