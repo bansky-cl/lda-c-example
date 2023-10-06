@@ -89,6 +89,6 @@ python2 topics.py est_output/final.beta vocab.txt 20
 
 
 ## tips:
- - 出现段错误 Segmentation fault (core dumped)，可能是数据处理没做好 preprocess.ipynb ，自行修改preprocess.ipynb的处理逻辑
+ - 出现段错误 Segmentation fault (core dumped)，可能是命令输错了，也可能是数据处理没做好，可自行修改preprocess.ipynb的处理逻辑
  - 数据本身决定主题效果，alpha和k是超参，需要具体调
  - 代码挺老的，但是挺快，系统编译上容易出错
